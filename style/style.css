@@ -121,6 +121,24 @@ hr{
   width: 1000px;
   margin-bottom: 15px;
 }
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: #fff12b;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0A6EB7;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #085388
+} 
 
 @media (max-width: 999px) {
   body {
