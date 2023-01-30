@@ -139,6 +139,12 @@ hr{
 ::-webkit-scrollbar-thumb:hover {
   background: #085388
 } 
+.img-conteudo img{
+  max-width: 50%;
+  float: left;
+  margin: 20px;
+}
+
 
 @media (max-width: 999px) {
   body {
