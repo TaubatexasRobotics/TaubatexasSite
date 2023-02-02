@@ -8,6 +8,8 @@
   src: url(../fonts/Jack\ Frost.otf);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 body {
   background: #f4f2ec url(./img/fundo.png) repeat-x;
   background-color: #fff12b;
@@ -138,18 +140,36 @@ hr{
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #085388
+}
+.conteudo-img{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
 } 
 .img-conteudo img{
-  max-width: 50%;
-  float: left;
-  margin: 10px 15px 0 45px;
+  float: left; /*topo | direita | inferior | esquerda*/
+  max-width: 586px;
+  margin: 15px 0 15px 30px;
   border-radius: 15px;
+}
+.post{
+  margin: 40px;
+  background-color: #0A6EB7;
+  margin-left: 14px;
+  border-radius: 15px;
+  padding-right: 30%;
 }
 .title{
   font-family: 'Jack Frost';
-  color:white
+  font-size: 40px;
+  padding: 25px;
+  color:white;
 }
-
+.content-post{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: #fff;
+}
 
 @media (max-width: 999px) {
   body {
