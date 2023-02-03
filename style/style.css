@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;400&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -7,8 +8,6 @@
   font-family: 'Jack Frost';
   src: url(../fonts/Jack\ Frost.otf);
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body {
   background: #f4f2ec url(./img/fundo.png) repeat-x;
@@ -149,7 +148,7 @@ hr{
 .img-conteudo img{
   float: left; /*topo | direita | inferior | esquerda*/
   max-width: 586px;
-  margin: 15px 0 15px 30px;
+  margin: 15px 0 15px 50px;
   border-radius: 15px;
 }
 .post{
@@ -157,17 +156,20 @@ hr{
   background-color: #0A6EB7;
   margin-left: 14px;
   border-radius: 15px;
-  padding-right: 30%;
+  padding-right: 10%;
 }
 .title{
   font-family: 'Jack Frost';
+  margin-top: 10%;
   font-size: 40px;
   padding: 25px;
   color:white;
 }
 .content-post{
-  font-family: 'Poppins', sans-serif;
-  font-weight: bold;
+  font-family: 'Kanit', sans-serif;
+  font-size: 20px;
+  width: 100%;
+  padding-left: 25px;
   color: #fff;
 }
 
@@ -230,6 +232,15 @@ hr{
   hr{
     margin-top: 15px;
     width: 50%;
+  }
+  .conteudo-img{
+    display: list-item;
+  }
+  .img-conteudo img{
+    max-width: 386px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
   }
 }
 
