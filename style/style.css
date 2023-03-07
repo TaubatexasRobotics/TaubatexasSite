@@ -140,7 +140,7 @@ hr{
 ::-webkit-scrollbar-thumb:hover {
   background: #085388
 }
-.conteudo-img{
+#conteudo-img{
   display: flex;
   justify-content: center;
   margin: 0 auto;
@@ -171,6 +171,23 @@ hr{
   width: 100%;
   padding-left: 25px;
   color: #fff;
+}
+#history{
+  text-align: center;
+  
+}
+.title-alone{
+  font-family: 'Jack Frost';
+  margin-top: 3%;
+  font-size: 80px;
+  padding: 25px;
+  color:white;
+}
+.content-post-alone{
+  float: bottom;
+  margin: 10px 50px 10px 50px;
+  font-family: 'Kanit', sans-serif;
+  font-size: 20px;
 }
 
 @media (max-width: 999px) {
